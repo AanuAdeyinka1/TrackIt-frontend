@@ -9,9 +9,8 @@ import LoginPage from "./Component/Pages/Login"
 function App() {
 
 return (
- 
-  // <MyForm />
-  <LoginPage />
+ <VerifyWithOTP />
+  // <LoginPage />
 
   // <VerifyWithOTP />
   

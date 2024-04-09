@@ -80,7 +80,7 @@ const LoginPage = () => {
       <h2 className={style.heading}>Log in to your account</h2>
       <form onSubmit={handleSubmit}>
         <div className={style.formgroup}>
-          <label>Email</label>
+          <label className={style.label}>Email</label>
           <br />
           <input
             placeholder="Enter email"
@@ -91,7 +91,7 @@ const LoginPage = () => {
           />
         </div>
         <div className={style.formgroupb}>
-          <label>Password:</label>
+          <label className={style.labelpassword}>Password:</label>
           <br />
           <input
             placeholder="Password"
