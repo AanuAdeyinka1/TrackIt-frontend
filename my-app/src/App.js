@@ -4,13 +4,15 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { MyForm} from "./Component/Pages/SignIn"
 import  VerifyWithOTP from "./Component/Pages/Verify"
 import LoginPage from "./Component/Pages/Login"
+import { LandingPage } from './Component/LandingPage/Landingpage';
 
 
 function App() {
 
 return (
- <VerifyWithOTP />
+//  <VerifyWithOTP />
   // <LoginPage />
+  <LandingPage />
 
   // <VerifyWithOTP />
   

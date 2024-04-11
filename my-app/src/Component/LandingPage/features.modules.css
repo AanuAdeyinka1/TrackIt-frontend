@@ -1,0 +1,12 @@
+.groupOne{
+    display: flex;
+}
+
+.featureContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+   
+}
